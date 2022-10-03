@@ -25,6 +25,7 @@ elForm.addEventListener('submit', (e)=>{
 
 
 function mapper(data) {
+    elResult.innerHTML = ''
     data.map((e,i)=>{
         let newLi = document.createElement('li')
         newLi.innerHTML = `

@@ -71,7 +71,7 @@
 
 .search__img{
     width: 91.43px;
-    height: 33px;
+    height: 40px;
 }
 
 .search__input{
@@ -85,7 +85,7 @@
 }
 
 .search__input input {
-    border: none;
+    width: 70%;
 }
 
 
@@ -103,5 +103,5 @@
 
 .result__item {
     margin-top: 50px;
-    border: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
